@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ant-junit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mobile/search_sdk_android/libs/ant-junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mobile/search_sdk_android/libs/ant-junit4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mobile/search_sdk_android/libs/junit-4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mobile/search_sdk_android/libs/org.json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mobile/search_sdk_android/libs/UmlGraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
