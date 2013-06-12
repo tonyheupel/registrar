@@ -1,4 +1,4 @@
-package com.infospace.dependencies;
+package com.infospace.registrar;
 
 import org.junit.Test;
 
