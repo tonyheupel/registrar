@@ -53,6 +53,20 @@ public static class MyApp {
 
 ## Developer setup
 
+### Building
+
+The project uses Ant to build.  It builds a ``` registrar.jar ``` file in the
+``` build/jar ``` folder.
+
+The Ant targets are:
+```
+$ ant clean           #=> just removes the build directory
+$ ant test            #=> compiles the code, compiles the tests, and runs the tests
+$ ant main (default)  #=> clean, compile, test, and package up non-test files into the jar
+```
+
+### Automated Testing
+
 If you want to have your code autoteted while working on Registrar, simply
 install Ruby (1.9.3 and above) and then install bundler, and then install
 the gems used to do this:
@@ -84,3 +98,5 @@ You can see that it detected those things and is using GNTP to send Growl notifi
 (popups with detailed messages), Tmux color coding (Yellow for building/testing, Red for 
 failures, and Green for success), as well as updating the Terminal window/tab's title
 when guard detects a change.
+
+###
