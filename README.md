@@ -87,7 +87,7 @@ $ guard
 
 Guard will run the entire build process when it starts (using ant).  Then,
 when you change a file, it will compile the code and tests and run just the
-single unti test class that relates to the file you change.
+single unit test class that relates to the file you change.
 
 It tells you what notification methods it will use to tell you when it has detected changes,
 when it is building/testing, and whether those things have succeeded or failed.  In the example 
